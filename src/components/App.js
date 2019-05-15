@@ -36,6 +36,7 @@ const colors = [
   }
 ];
 
+
 export default function App() {
   return <Colors colors={colors} />;
 }

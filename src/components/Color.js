@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 function Color({ name, hex, rgb }) {
   return (
     <dl>
-
       {name && <><dt>Name:</dt>
       <dd>{name}</dd></>}
 
@@ -14,8 +13,7 @@ function Color({ name, hex, rgb }) {
       <dt>RGB:</dt>
       <dd>Red: {rgb.red}</dd>
       <dd>Green: {rgb.green}</dd>
-      <dd>Blue: {rgb.blue}</dd>
-        
+      <dd>Blue: {rgb.blue}</dd>      
     </dl>
   );
 }
