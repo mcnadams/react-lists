@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photo test make an img 1`] = `
+<img
+  src="./path"
+  style={
+    Object {
+      "width": "20vw",
+    }
+  }
+/>
+`;
