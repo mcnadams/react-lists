@@ -22,7 +22,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <PhotoAlbum photos={photos} />
+      <PhotoAlbum title={'Favorites'} photos={photos} />
       <Footer />
     </>
   );

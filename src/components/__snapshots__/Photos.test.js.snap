@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos test make a list of photos 1`] = `
+<ul>
+  <li
+    key="./path"
+  >
+    <Photo
+      photo="./path"
+    />
+  </li>
+  <li
+    key="./path2"
+  >
+    <Photo
+      photo="./path2"
+    />
+  </li>
+</ul>
+`;
