@@ -4,9 +4,10 @@ import PropTypes from 'prop-types';
 
 function Photos({ photos }) {
   const photoList = photos.map(photo => {
+    console.log(photo);
     return (
-      <li key={photo}>
-        <Photo photo={photo} />
+      <li key={photo} style={{ 'list-style': 'none', display: 'inline-block', margin: '10px' }}>
+        <Photo photoUrl={photo} />
       </li>
     );
   });
